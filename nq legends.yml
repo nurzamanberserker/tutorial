@@ -1,0 +1,78 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: NQ LEGENDS
+  product: Selamat datang di NQ LEGENDS
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: NQ LEGENDS
+    output: web, pdf
+    folderitems:
+
+    - title: Github
+      external_url: https://github.com/nurzamanberserker
+      output: web, pdf
+
+    - title: Beranda
+      url: /index.html
+      output: web
+      type: homepage
+
+    - title: About us
+      url: /about_us.html
+      output: web
+
+    - title: Disclaimer
+      url: /disclaimer.html
+      output: web
+
+    - title: Privacy policy
+      url: /privacy_policy.html
+      output: web
+
+  - title: Internet
+    output: web, pdf
+    folderitems:
+
+    - title: Tutorial
+      url: /tag_tutorial.html
+      output: web
+
+    - title: Item
+      url: /tag_item.html
+      output: web
+
+    - title: Adsense
+      url: /tag_adsense.html
+      output: web
+
+    - title: Seo
+      url: /tag_seo.html
+      output: web
+
+    - title: Youtube
+      url: /tag_youtube.html
+      output: web
+
+    - title: Blog
+      url: /tag_blog.html
+      output: web
+
+    - title: Materi islami
+      url: /tag_blog.html
+      output: web
+# Copyright 2021 Google LLC
